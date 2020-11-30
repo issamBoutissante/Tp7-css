@@ -1,0 +1,6 @@
+#main {
+  list-style-type: upper-roman;
+}
+#main ol {
+  list-style-type: lower-alpha;
+}

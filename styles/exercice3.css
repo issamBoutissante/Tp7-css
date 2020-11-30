@@ -1,0 +1,13 @@
+ol {
+  counter-reset: monCounter;
+  list-style: none;
+}
+li::before {
+  counter-increment: monCounter;
+  content: counter(monCounter);
+  border-radius: 50%;
+  background-color: blue;
+  padding: 0px 4px;
+  color: white;
+  margin-right: 3px;
+}
