@@ -1,16 +1,19 @@
-ol {
-  background-color: pink;
+ol,
+ul {
   padding: 30px;
 }
-ol li {
-  background-color: white;
-  padding-left: 5px;
+ol {
+  background-color: pink;
 }
 ul {
   background-color: rgb(0, 132, 255);
-  padding: 30px;
+}
+li {
+  background-color: white;
+}
+ol li {
+  padding-left: 5px;
 }
 ul li {
-  background-color: white;
   margin-bottom: 5px;
 }

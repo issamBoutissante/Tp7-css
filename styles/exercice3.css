@@ -11,3 +11,6 @@ li::before {
   color: white;
   margin-right: 3px;
 }
+li {
+  margin-bottom: 3px;
+}
